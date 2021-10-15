@@ -9,6 +9,7 @@ const { InjectManifest } = require('workbox-webpack-plugin');
 module.exports = () => {
   return {
     mode: 'development',
+    //File entry point
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js'
